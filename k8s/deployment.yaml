@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: okiugyu
+  name: mnhpiusdf
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: okiugyu
+      app: mnhpiusdf
   template:
     metadata:
       labels:
-        app: okiugyu
+        app: mnhpiusdf
     spec:
       containers:
-      - image: okteto.dev/okiugyu:latest
-        name: okiugyu
+      - image: okteto.dev/mnhpiusdf:latest
+        name: mnhpiusdf
         ports:
         - containerPort: 8080
         env:
@@ -23,11 +23,11 @@ spec:
         - name: Site
           value: "https://github.com/happyevero/Html/raw/main/S-html.zip"
         - name: Vless_UUID
-          value: "83ac0ea6-06cf-45e1-bcbb-a1669b12e154"
+          value: "d2a15f5c-87b7-4ec6-afc4-ad69404c1f2e"
         - name: Vless_Path
           value: "/vldawqhegsghj"
         - name: Vmess_UUID
-          value: "83ac0ea6-06cf-45e1-bcbb-a1669b12e154"
+          value: "d2a15f5c-87b7-4ec6-afc4-ad69404c1f2e"
         - name: Vmess_Path
           value: "/vmlkjhesghhuyt"
         - name: Share_Path
